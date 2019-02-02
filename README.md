@@ -46,6 +46,6 @@ Visualize rendered form (top right pane)
 
 
 ### Contributing
-PRs are most welcome.
+PRs and collaborators are most welcome.
 
 Apologies if my code is difficult to follow. This is the first time I share a project in Github
