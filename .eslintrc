@@ -1,0 +1,59 @@
+{
+    "root": true,
+    "extends": [
+      "plugin:vue/recommended",
+      "@vue/airbnb"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint",
+      "sourceType": "module",
+      "allowImportExportEverywhere": true
+    },
+    "globals": {
+      "Bus": true,
+      "Vue": true
+    },
+    "rules": {
+      "no-useless-escape": 0,
+      "no-console": 0,
+      "arrow-parens": 0,
+      "max-len": [
+        "error",
+        {
+          "code": 1000
+        }
+      ],
+      "vue/max-attributes-per-line": [
+        "error",
+        {
+          "singleline": 1,
+          "multiline": {
+            "max": 1,
+            "allowFirstLine": false
+          }
+        }
+      ],
+      "vue/component-name-in-template-casing": [
+        "error",
+        "PascalCase",
+        {
+          "ignores": [
+            "v-server-table",
+            "draggable",
+            "b-row",
+            "b-col",
+            "b-modal",
+            "b-button",
+            "b-button-group",
+            "b-container",
+            "b-form-input",
+            "b-form-group",
+            "b-input-group",
+            "b-input-group-text",
+            "b-form-checkbox",
+            "b-form-select"
+          ]
+        }
+      ]
+    }
+  }
