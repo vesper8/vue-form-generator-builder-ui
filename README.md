@@ -16,7 +16,7 @@ yarn build
 ```
 
 ### Customize configuration
-See [Demo](http://github.vue.vfg-schema-builder.cbass.ca/).
+See [Demo](http://github.vue.vfg-schema-builder.cbass.dev/).
 
 ### About
 This repository, which runs on vue-cli 3, provides a simple graphical user interface for creating schemas to be used with [vue-form-generator](https://github.com/vue-generators/vue-form-generator)
